@@ -7,9 +7,7 @@ let la = io.lesDatafil("landskap.json");
 
 let r = {};
 
-Object.keys(la).forEach(kode => {
-  blandDelta(kode);
-});
+Object.keys(la).forEach(kode => blandDelta(kode));
 
 function blandDelta(kode) {
   const node = la[kode];
