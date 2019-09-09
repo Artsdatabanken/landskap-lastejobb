@@ -11,7 +11,7 @@ importer(
 );
 
 function importer(csvFil, utFil) {
-  const kildefil = "nin-data/" + csvFil;
+  const kildefil = "data/nin-egenskapsdata/" + csvFil;
   const json = csv.les(kildefil, { from_line: 1 });
   const writePath = "data/" + utFil + ".csv.json";
   io.writeJson(writePath, json);

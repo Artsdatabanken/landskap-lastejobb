@@ -1,7 +1,7 @@
 const { io } = require("lastejobb");
 
 const r = {};
-let kode2index = io.readJson("nin-data/Natur_i_Norge/Landskap/la_index.json");
+let kode2index = io.readJson("kildedata/la_index.json");
 
 Object.keys(kode2index).forEach(kode => {
   const node = {};
