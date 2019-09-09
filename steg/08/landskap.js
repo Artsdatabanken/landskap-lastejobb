@@ -4,6 +4,7 @@ const typesystem = require("@artsdatabanken/typesystem");
 const r = {};
 
 flett("landskap");
+flett("kart_index");
 flett("landskapsgradient");
 flett("landskap_relasjon_til_natursystem");
 flettKildedata("nin-data/Natur_i_Norge/Landskap/Typeinndeling/type");
@@ -89,19 +90,6 @@ function sjekkAtTitlerEksisterer() {
     log.warn("Mangler tittel: " + notitle.join(", "));
     notitle.forEach(key => delete r[key]);
   }
-}
-
-// Deler opp koden i ett array av segmenter, 1 for hvert nivå
-// tar hensyn til målestokk for NA
-// i.e. 'NA-T44-E-1 => ['NA','T','44','E-1']
-function splittKode(kode) {
-  if (kode && kode.toUpperCase().indexOf("NA") === 0) {
-    // HACK: treat C-2, E-1 etc as one level
-    let segments = kode.match(/([a-eA-E]-[1-9]+)|[a-zA-Z]+|[0-9]+/g);
-    return segments || [];
-  }
-  let segments = kode.match(/[a-zA-Z]+|[0-9]+/g);
-  return segments || [];
 }
 
 io.skrivBuildfil(__filename, json.objectToArray(r, "kode"));
