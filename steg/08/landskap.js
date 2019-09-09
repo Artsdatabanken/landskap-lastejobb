@@ -4,6 +4,7 @@ const typesystem = require("@artsdatabanken/typesystem");
 const r = {};
 
 flett("landskap");
+flett("la_farger");
 flett("kart_index");
 flett("landskapsgradient");
 flett("landskap_relasjon_til_natursystem");

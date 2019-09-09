@@ -35,7 +35,6 @@ function blandDelta(kode) {
 
   normalize(stack);
 
-  let farge = null;
   switch (stack.length) {
     case 0:
       break;
