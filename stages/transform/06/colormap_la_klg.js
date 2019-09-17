@@ -5,7 +5,7 @@ const { io } = require("lastejobb");
 return; //  Not currently in use as palettes are now generated in client side javascript
 
 let fargeindeks = io.readJson(
-  "data/landskap-kildedata/Natur_i_Norge/Landskap/la_index.json"
+  "data/landskap-ubehandlet/Natur_i_Norge/Landskap/la_index.json"
 );
 let farger = io.lesDatafil("la_farger");
 let la = io.lesDatafil("landskap");
