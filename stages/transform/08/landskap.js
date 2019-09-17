@@ -93,4 +93,4 @@ function sjekkAtTitlerEksisterer() {
   }
 }
 
-io.skrivBuildfil(__filename, json.objectToArray(r, "kode"));
+io.skrivBuildfil("type", json.objectToArray(r, "kode"));
