@@ -2,9 +2,7 @@ const log = require("log-less-fancy")();
 const { io } = require("lastejobb");
 const { blend } = require("@artsdatabanken/color-blend");
 
-const farger = io.readJson(
-  "data/nin-egenskapsdata/Natur_i_Norge/Landskap/farger.json"
-);
+const farger = io.readJson("data/landskap-kildedata/farger.json");
 let la = io.lesDatafil("landskap.json");
 
 let r = {};

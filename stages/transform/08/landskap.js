@@ -8,9 +8,7 @@ flett("la_farger");
 flett("kart_index");
 flett("landskapsgradient");
 flett("landskap_relasjon_til_natursystem");
-flettKildedata(
-  "data/nin-egenskapsdata/Natur_i_Norge/Landskap/Typeinndeling/type"
-);
+flettKildedata("data/landskap-kildedata/Typeinndeling/type");
 
 sjekkAtTitlerEksisterer();
 capsTitler();
