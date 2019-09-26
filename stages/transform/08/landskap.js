@@ -93,4 +93,4 @@ function sjekkAtTitlerEksisterer() {
   }
 }
 
-io.skrivBuildfil("type", json.objectToArray(r, "kode"));
+io.skrivDatafil("landskap", json.objectToArray(r, "kode"));

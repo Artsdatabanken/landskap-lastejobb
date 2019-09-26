@@ -52,9 +52,14 @@ hovedtyper.forEach(e => {
   if (e.S_kode.length > 4) kode += "-" + e.S_kode.substring(4);
   if (kode.startsWith("LA-K-F"))
     ingress = ingress.replace(/dallandskap/g, "fjordlandskap");
+  ny.infoUrl = wwwAdbUrl(kode);
   ny.ingress = { nb: ingress };
   r[hack(kode)] = ny;
 });
+
+function wwwAdbUrl(kode) {
+  return "https://artsdatabanken.no/nin/" + kode.replace(/-/g, "/"); //LA/I/D/1";
+}
 
 function kjedGradientbeskrivelser(rekkefølge, klger) {
   const koder = rekkefølge.split(",");
