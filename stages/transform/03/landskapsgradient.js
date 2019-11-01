@@ -8,6 +8,7 @@ klg.forEach(inn => {
   if (inn.KLG_trinn_kode)
     r["NN-LA-" + hack(inn.KLG_trinn_kode)] = {
       tittel: { nb: inn.Trinn_navn },
+      nivå: "Gradienttrinn",
       min: inn.verdier_klg_indekser,
       max: inn.verdier_klg_indekser,
       ingress: { nb: inn.Beskrivelse_KLG },
@@ -22,6 +23,7 @@ klg.forEach(inn => {
   else {
     r["NN-LA-" + hack(inn.kode)] = {
       tittel: { nb: inn.KLG_Navn },
+      nivå: "Landskapsgradient",
       måleenhet: inn.måleenhet,
       ingress: { nb: inn.Beskrivelse_KLG }
     };
