@@ -8,8 +8,8 @@ importer(
 );
 
 function importer(csvFil, utFil) {
-  const kildefil = "data/landskap-ubehandlet/" + csvFil;
+  const kildefil = "temp/landskap-ubehandlet/" + csvFil;
   const json = csv.les(kildefil, { from_line: 1 });
-  const writePath = "data/" + utFil + ".csv.json";
+  const writePath = "temp/" + utFil + ".csv.json";
   io.writeJson(writePath, json);
 }

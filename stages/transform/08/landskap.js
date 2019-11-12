@@ -8,7 +8,7 @@ flett("la_farger");
 flett("kart_index");
 flett("landskapsgradient");
 flett("landskap_relasjon_til_natursystem");
-flettKildedata("data/landskap-ubehandlet/Typeinndeling/type");
+flettKildedata("temp/landskap-ubehandlet/Typeinndeling/type");
 
 sjekkAtTitlerEksisterer();
 capsTitler();

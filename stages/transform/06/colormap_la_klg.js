@@ -5,11 +5,11 @@ const { io } = require("lastejobb");
 return; //  Not currently in use as palettes are now generated in client side javascript
 
 let fargeindeks = io.readJson(
-  "data/landskap-ubehandlet/Natur_i_Norge/Landskap/la_index.json"
+  "temp/landskap-ubehandlet/Natur_i_Norge/Landskap/la_index.json"
 );
-let farger = io.lesDatafil("la_farger");
-let la = io.lesDatafil("landskap");
-let klg = io.lesDatafil("landskapsgradient");
+let farger = io.lestempfil("la_farger");
+let la = io.lestempfil("landskap");
+let klg = io.lestempfil("landskapsgradient");
 
 Object.keys(klg).forEach(kode => lagPalett(kode));
 
@@ -31,7 +31,7 @@ function lkmTilType() {
 function lagPalett(kode) {
   new Jimp(512, 1, 0xffffffff, (err, image) => {
     fargeleggAlle(image, kode);
-    image.write("./data/" + kode + ".palette.png");
+    image.write("./temp/" + kode + ".palette.png");
   });
 }
 
