@@ -8,7 +8,7 @@ flett("la_farger");
 flett("kart_index");
 flett("landskapsgradient");
 flett("landskap_relasjon_til_natursystem");
-flettKildedata("temp/landskap-ubehandlet/Typeinndeling/type");
+flett("landskap-ubehandlet/Typeinndeling/type");
 
 sjekkAtTitlerEksisterer();
 capsTitler();
@@ -16,23 +16,12 @@ typesystem.kobleForeldre(r);
 propagerNedFlaggAttributt();
 
 function flettAttributter(o) {
-  for (let key of Object.keys(o)) {
-    let kode = key.replace("_", "-");
-    kode = kode.toUpperCase();
-    const src = o[key];
-    r[kode] = Object.assign({}, r[kode], src);
-  }
+  for (let kode of Object.keys(o))
+    r[kode] = json.mergeDeep(r[kode] || {}, o[kode]);
 }
 
 function flett(filename) {
   var data = io.lesDatafil(filename);
-  let o = data;
-  if (o.items) o = json.arrayToObject(data.items, { uniqueKey: "kode" });
-  flettAttributter(o);
-}
-
-function flettKildedata(filename) {
-  var data = io.readJson(filename + ".json");
   let o = data;
   if (o.items) o = json.arrayToObject(data.items, { uniqueKey: "kode" });
   flettAttributter(o);
