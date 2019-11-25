@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@artsdatabanken/color-blend": "^1.0.0",
-    "@artsdatabanken/typesystem": "^10.6.4",
+    "@artsdatabanken/typesystem": "^10.7.1",
     "jimp": "^0.8.5",
     "lastejobb": "^2.17.6"
   }
