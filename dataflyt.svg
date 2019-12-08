@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="788px" height="63px" viewBox="-0.5 -0.5 788 63" content="&lt;mxfile host=&quot;www.draw.io&quot; modified=&quot;2019-12-08T17:22:50.276Z&quot; agent=&quot;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/78.0.3904.108 Chrome/78.0.3904.108 Safari/537.36&quot; etag=&quot;9wy-L20_zOT_kXcwMFOJ&quot; version=&quot;12.3.8&quot; pages=&quot;1&quot;&gt;&lt;diagram id=&quot;V8T9S2Tr_xqviCK70uCv&quot; name=&quot;Page-1&quot;&gt;7Vjbbts4EP0aParQJZbTxzhNWvSy3V2jyO7TghZHEi2KVCkqdvr1HYrULXZzAdJtgMYPtnhmOCRnzhxJ9uLzav9Wkbr4JClwLwro3ovfeFEULpYn+GOQG4ssF6EFcsWocxqBNfsGDgwc2jIKzcxRS8k1q+dgKoWAVM8wopTczd0yyeer1iSHA2CdEn6IXjGqC4ueLoIRfwcsL/qVw8BZKtI7O6ApCJW7CRRfePG5klLbq2p/Dtwkr8+LnXf5A+uwMQVCH5nwpQH1ebM1OYkCTjZYl87JixKO/itiMklUDnZy8rU1G1n9p2U9jsy29Y3LRQ+mkkvlxWeeWTAOw9BcdL4a9tqnkEpFNJPC+ggpYBaxUJDNAnrRgjNR4s8US3JnU1BLa+MWuSSj1eSgc+gOx4mgTUnqnhMUKNTW5FusJBpyqZgFKdHE4q3OpMKaWfz9+vMfjmwK6BYwy3oWpq19LX2c7mjyj2M5xquHwrsKcZJCgbwDNedid+YOKLQ2dD4zxYsuc6aLdvMqlRUOzpRuTNQNESUIBOZH7NkgFm/q8uuH6t+/rrJoFYmW+h/9xcCygT1jNSPHiRWrbAs8ZhOCCZ+okmkodat8Ksu2QhqSZiuNWZEdflek0aDwwq4QXZoQr2qR46K7Aueua8wMrrxD6UCs0JXhaIiXSrYCa+dGGeP83JIONx5nUZYRZNCq0UqWMLEkdBmcbNCSK0IZbmg6q/uYWX0fhkOIvrMNInFTTBu1Og0Ghl2DQm7/sPHCSaLfgqxAqxt0cROSKLFTdqOAhItTixUT8egx4niSD6HGtjZ5tcXsh5NGf2l8nxvSbeVmc0QCbtnmUmCMj5OC40qw/9+V4PaZ79SE5Jlpgtn7U2gCKkIWHdMEowgJfW6aEIenB5oQBS+a8FM0od1Agdcc9G/wXHBw2jvlYPnM5OB3e0SYtn/409r/4OXhKBfcUteEt3Cb7hNSgKBn5sUKRymqd8PSeWGG5AXH8n/SfQ7SGiOybat67dYhykQFiu9iDsFMYs7/Bt6pycVoWQk5GdkCKV3IXArS78kewoS7u0B4UNmqFO67gc7U8v6H70nBVXeA6/k+jlW3m4qJJjcTh1oyoZtJ5D8NMN5WFrEronvbjl5PiXLgnoQnd7h3XW3WH1k2HOQY8R7GstcvLHsAy5YPZFnyK1gWxcFjWBYHyROyzNw7hv9MrPv4z1N88R0=&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);">
+  <defs>
+    <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-f2ffaf-1-ffffff-1-s-0">
+      <stop offset="0%" style="stop-color:#f2ffaf"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+    <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="mx-gradient-ffaff2-1-ffffff-1-s-0">
+      <stop offset="0%" style="stop-color:#ffaff2"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+  </defs>
+  <style>
+image {
+  opacity:0.4;
+}
+a:hover rect {
+fill: #eee;
+  fill-opacity: 1;
+}
+  </style>
+  <g>
+    <a xlink:href="https://github.com/Artsdatabanken/landskap">
+      <rect x="626" y="0" width="158" height="58" rx="8.7" ry="8.7" fill-opacity="0.8" fill="#000000" stroke="#000000" stroke-opacity="0.8" transform="translate(2,3)" opacity="0.25"/>
+      <rect x="626" y="0" width="158" height="58" rx="8.7" ry="8.7" fill-opacity="0.8" fill="url(#mx-gradient-f2ffaf-1-ffffff-1-s-0)" stroke="#6d704b" stroke-opacity="0.8" pointer-events="all"/>
+      <image x="632.5" y="7.5" width="42" height="42" xlink:href="https://github.com/Artsdatabanken/nin-arkitektur-dokumentasjon/raw/master/image/data.png" preserveAspectRatio="none" opacity="0.8"/>
+      <g transform="translate(680.5,22.5)">
+        <switch>
+          <foreignObject style="overflow:visible;" pointer-events="all" width="53" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 54px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: left;">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">
+                <a target="_top" style="color: #111 ; text-decoration: none" href="https://github.com/Artsdatabanken/landskap">landskap</a>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="27" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica" font-weight="bold">[Not supported by viewer]</text>
+        </switch>
+      </g>
+    </a>
+    <a xlink:href="https://github.com/Artsdatabanken/landskap-lastejobb">
+      <rect x="318" y="0" width="208" height="58" rx="8.7" ry="8.7" fill-opacity="0.8" fill="#000000" stroke="#000000" stroke-opacity="0.8" transform="translate(2,3)" opacity="0.25"/>
+      <rect x="318" y="0" width="208" height="58" rx="8.7" ry="8.7" fill-opacity="0.8" fill="url(#mx-gradient-ffaff2-1-ffffff-1-s-0)" stroke="#704b6d" stroke-opacity="0.8" pointer-events="all"/>
+      <image x="324.5" y="7.5" width="42" height="42" xlink:href="https://github.com/Artsdatabanken/nin-arkitektur-dokumentasjon/raw/master/image/last.png" preserveAspectRatio="none" opacity="0.8"/>
+      <g transform="translate(372.5,22.5)">
+        <switch>
+          <foreignObject style="overflow:visible;" pointer-events="all" width="109" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 110px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: left;">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">
+                <a target="_top" style="color: #111 ; text-decoration: none" href="https://github.com/Artsdatabanken/landskap-lastejobb">landskap-lastejobb</a>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="55" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica" font-weight="bold">[Not supported by viewer]</text>
+        </switch>
+      </g>
+    </a>
+    <a xlink:href="https://github.com/Artsdatabanken/landskap-ubehandlet">
+      <rect x="0" y="0" width="218" height="58" rx="8.7" ry="8.7" fill-opacity="0.8" fill="#000000" stroke="#000000" stroke-opacity="0.8" transform="translate(2,3)" opacity="0.25"/>
+      <rect x="0" y="0" width="218" height="58" rx="8.7" ry="8.7" fill-opacity="0.8" fill="url(#mx-gradient-f2ffaf-1-ffffff-1-s-0)" stroke="#6d704b" stroke-opacity="0.8" pointer-events="all"/>
+      <image x="6.5" y="7.5" width="42" height="42" xlink:href="https://github.com/Artsdatabanken/nin-arkitektur-dokumentasjon/raw/master/image/data.png" preserveAspectRatio="none" opacity="0.8"/>
+      <g transform="translate(54.5,22.5)">
+        <switch>
+          <foreignObject style="overflow:visible;" pointer-events="all" width="120" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 121px; white-space: nowrap; overflow-wrap: normal; font-weight: bold; text-align: left;">
+              <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">
+                <a target="_top" style="color: #111 ; text-decoration: none" href="https://github.com/Artsdatabanken/landskap-ubehandlet">landskap-ubehandlet</a>
+              </div>
+            </div>
+          </foreignObject>
+          <text x="60" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica" font-weight="bold">[Not supported by viewer]</text>
+        </switch>
+      </g>
+    </a>
+    <path d="M 526 29 L 615.9 29" fill="none" stroke="#444444" stroke-width="3" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 622.65 29 L 613.65 33.5 L 615.9 29 L 613.65 24.5 Z" fill="#444444" stroke="#444444" stroke-width="3" stroke-miterlimit="10" pointer-events="all"/>
+    <g transform="translate(561.5,23.5)">
+      <switch>
+        <foreignObject style="overflow:visible;" pointer-events="all" width="29" height="11" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">JSON</div>
+          </div>
+        </foreignObject>
+        <text x="15" y="11" fill="#000000" text-anchor="middle" font-size="11px" font-family="Helvetica">JSON</text>
+      </switch>
+    </g>
+    <path d="M 218 29 L 307.9 29" fill="none" stroke="#444444" stroke-width="3" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 314.65 29 L 305.65 33.5 L 307.9 29 L 305.65 24.5 Z" fill="#444444" stroke="#444444" stroke-width="3" stroke-miterlimit="10" pointer-events="all"/>
+    <g transform="translate(253.5,23.5)">
+      <switch>
+        <foreignObject style="overflow:visible;" pointer-events="all" width="29" height="11" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">JSON</div>
+          </div>
+        </foreignObject>
+        <text x="15" y="11" fill="#000000" text-anchor="middle" font-size="11px" font-family="Helvetica">JSON</text>
+      </switch>
+    </g>
+  </g>
+</svg>
