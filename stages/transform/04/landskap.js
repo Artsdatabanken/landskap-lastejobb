@@ -1,6 +1,6 @@
 const { io } = require("lastejobb");
 
-let hovedtyper = io.lesDatafil("landskap.csv.json").items;
+let typeinndeling = io.lesDatafil("landskap.csv.json").items;
 let klg = io.lesDatafil("landskapsgradient.json");
 
 const r = {};
@@ -14,7 +14,7 @@ function hack(kode) {
   return "NN-LA-TI-" + kode.replace("LA-", "");
 }
 
-hovedtyper.forEach(e => {
+typeinndeling.forEach(e => {
   const ny = {
     tittel: { nb: e.Name, en: e.Name_EN },
     relasjon: []
@@ -58,7 +58,7 @@ hovedtyper.forEach(e => {
 });
 
 function wwwAdbUrl(kode) {
-  return "https://artsdatabanken.no/nin/" + kode.replace(/-/g, "/"); //LA/I/D/1";
+  return "https://artsdatabanken.no/nin/" + kode.replace(/LA/, "LA-TI").replace(/-/g, "/"); //LA/I/D/1";
 }
 
 function kjedGradientbeskrivelser(rekkefølge, klger) {
