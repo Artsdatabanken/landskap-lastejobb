@@ -2,13 +2,12 @@
   "name": "landskap-lastejobb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "download": "node index download",
-    "transform": "node --max_old_space_size=8192 index transform",
+    "download": "node node_modules/lastejobb/lastejobb stages/download",
+    "transform": "node --max_old_space_size=28192 node_modules/lastejobb/lastejobb stages/transform",
     "build": "npm run download && npm run transform",
-    "test": "node --max_old_space_size=6144 node_modules/.bin/jest",
-    "deploy": "./scripts/deploy.sh"
+    "deploy": "node  --max_old_space_size=28192 node_modules/lastejobb/lastejobb stages/deploy",
+    "test": "node --max_old_space_size=6144 node_modules/.bin/jest"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +15,7 @@
   "dependencies": {
     "@artsdatabanken/color-blend": "^1.0.0",
     "@artsdatabanken/typesystem": "^10.7.1",
-    "jimp": "^0.9.3",
-    "lastejobb": "^2.18.1"
+    "jimp": "^0.9.6",
+    "lastejobb": "^3.4.0"
   }
 }

@@ -4,8 +4,8 @@ const { io } = require("lastejobb");
 return; //  Not currently in use as palettes are now generated in client side javascript
 
 let koder = io.readJson("kildedata/Natur_i_Norge/Landskap/la_index.json");
-let meta = io.lesDatafil("metabase_med_farger");
-let hierarki = io.lesDatafil("kodehierarki");
+let meta = io.lesTempJson("metabase_med_farger");
+let hierarki = io.lesTempJson("kodehierarki");
 const barnAv = hierarki.barn;
 
 const klg2type = {};

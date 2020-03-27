@@ -3,7 +3,7 @@ const { io } = require("lastejobb");
 const { blend } = require("@artsdatabanken/color-blend");
 
 const farger = io.readJson("temp/landskap-ubehandlet/farger.json");
-let la = io.lesDatafil("landskap.json");
+let la = io.lesTempJson("landskap.json");
 
 let r = {};
 

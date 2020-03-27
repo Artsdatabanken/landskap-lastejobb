@@ -1,6 +1,6 @@
 const { io, json, url } = require("lastejobb");
 
-let tre = json.arrayToObject(io.lesDatafil("landskap").items, {
+let tre = json.arrayToObject(io.lesTempJson("landskap"), {
   uniqueKey: "kode"
 });
 

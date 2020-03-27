@@ -9,6 +9,13 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${file}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch download",
+      "program": "${workspaceFolder}/node_modules/lastejobb/index.js",
+      "args": ["stages/download"]
     }
   ]
 }

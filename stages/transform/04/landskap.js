@@ -1,7 +1,7 @@
 const { io } = require("lastejobb");
 
-let typeinndeling = io.lesDatafil("landskap.csv.json").items;
-let klg = io.lesDatafil("landskapsgradient.json");
+let typeinndeling = io.lesTempJson("landskap.csv.json");
+let klg = io.lesTempJson("landskapsgradient.json");
 
 const r = {};
 

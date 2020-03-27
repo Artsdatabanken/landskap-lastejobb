@@ -1,8 +1,8 @@
 const log = require("log-less-fancy")()
 const { io } = require("lastejobb")
 
-let rel = io.lesDatafil("relasjon_til_natursystem.csv.json").items
-let klg = io.lesDatafil("landskapsgradient.json")
+let rel = io.lesTempJson("relasjon_til_natursystem.csv.json")
+let klg = io.lesTempJson("landskapsgradient.json")
 
 const data = akkumuler(rel)
 const r = map(data)

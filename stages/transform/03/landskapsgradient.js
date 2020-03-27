@@ -1,6 +1,6 @@
 const { io } = require("lastejobb");
 
-let klg = io.lesDatafil("landskapsgradient.csv.json").items;
+let klg = io.lesTempJson("landskapsgradient.csv.json");
 
 const r = {};
 
