@@ -11,6 +11,7 @@ function hack(kode) {
   kode = kode.replace("AI-KS", "AIKS");
   kode = kode.split("_").join("-");
   if (kode.startsWith("KLG")) return "NN-LA-" + kode;
+  return "NN-" + kode
   return "NN-LA-TI-" + kode.replace("LA-", "");
 }
 
@@ -48,9 +49,8 @@ typeinndeling.forEach(e => {
     kantRetur: "består av",
     erSubset: true
   });
-  let kode = e.S_kode.substring(0, 4);
-  if (e.S_kode.length > 4) kode += "-" + e.S_kode.substring(4);
-  if (kode.startsWith("LA-K-F"))
+  let kode = e.S_kode
+  if (kode.startsWith("LA-TI-K-F"))
     ingress = ingress.replace(/dallandskap/g, "fjordlandskap");
   ny.infoUrl = wwwAdbUrl(kode);
   ny.ingress = { nb: ingress };
@@ -58,7 +58,7 @@ typeinndeling.forEach(e => {
 });
 
 function wwwAdbUrl(kode) {
-  return "https://artsdatabanken.no/nin/" + kode.replace(/LA/, "LA-TI").replace(/-/g, "/"); //LA/I/D/1";
+  return "https://artsdatabanken.no/nin/" + kode.replace(/-/g, "/"); //LA/I/D/1";
 }
 
 function kjedGradientbeskrivelser(rekkefølge, klger) {
