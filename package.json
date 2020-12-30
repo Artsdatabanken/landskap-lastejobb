@@ -15,7 +15,7 @@
   "dependencies": {
     "@artsdatabanken/color-blend": "^1.0.0",
     "@artsdatabanken/typesystem": "^10.7.1",
-    "jimp": "^0.9.6",
-    "lastejobb": "^3.4.0"
+    "jimp": "^0.16.1",
+    "lastejobb": "^3.8.2"
   }
 }
