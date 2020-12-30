@@ -16,6 +16,7 @@ function hack(kode) {
 }
 
 typeinndeling.forEach(e => {
+  if (!e.S_kode) return
   const ny = {
     tittel: { nb: e.Name, en: e.Name_EN },
     relasjon: []
